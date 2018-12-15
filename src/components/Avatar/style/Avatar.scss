@@ -1,0 +1,12 @@
+@import './Avatar.mixins';
+
+.root {
+  display: flex;
+  width: 150px;
+  img {
+    border-color: #fff;
+    border-size: 2px;
+    border-radius: 50%;
+    max-width: 100%;
+  } 
+}

@@ -1,0 +1,57 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Sidebar /> Tests should render correctly with minimal props 1`] = `
+<aside
+  className="root"
+>
+  <div
+    className="container"
+  >
+    <div
+      className="sidebarHeaderContainer"
+    >
+      <Anchor
+        href="#"
+        style={null}
+      >
+        Sidebar title
+      </Anchor>
+      <Anchor
+        href="#"
+        onClick={[MockFunction]}
+        style={null}
+        title="Close sidebar"
+      >
+        <FaClose />
+      </Anchor>
+    </div>
+    <div
+      className="sidebarBodyContainer"
+    >
+      <ListItemWithAvatar
+        avatarUrl="https://avatars3.githubusercontent.com/u/819041?s=400&u=e2358cf39d3d95c7603c19f6a23de0c0619e984d&v=4/"
+        style={null}
+      >
+        <div
+          className="user_info"
+        >
+          <h3>
+            Cícero Viana
+          </h3>
+          <p>
+            cicerohen@gmail.com
+          </p>
+        </div>
+      </ListItemWithAvatar>
+      <div>
+        content
+      </div>
+    </div>
+    <div
+      className="sidebarFooterContainer"
+    >
+      footer
+    </div>
+  </div>
+</aside>
+`;

@@ -1,0 +1,32 @@
+@import '~scss/settings/_global-variables';
+@import './Input.mixins.scss';
+
+.root {
+  display: flex;
+  flex-direction: row;
+  & {
+    input {
+      height: 40px;
+    }
+  }
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  flex:1;
+}
+
+.invalid {}
+
+.warning {
+  span {
+    color: $color-warning;
+  }
+}
+
+.error {
+  span {
+    color: $color-danger;
+  }
+}

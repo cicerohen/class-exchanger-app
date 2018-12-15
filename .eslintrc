@@ -1,0 +1,39 @@
+{
+  "parser": "babel-eslint",
+  "globals": {
+    "window": true,
+    "document": true,
+    "debugger": true
+  },
+  "env": {
+    "jest/globals": true
+  },
+  "plugins": ["jest"],
+  "extends": ["airbnb"],
+  "rules": {
+    "indent": "off",
+    "import/no-extraneous-dependencies": "off",
+    "import/prefer-default-export": "off",
+    "jsx-a11y/anchor-is-valid": [ "error", {
+      "components": [ "Link" ],
+      "specialLink": [ "to", "hrefLeft", "hrefRight" ],
+      "aspects": [ "noHref", "invalidHref", "preferButton" ]
+    }],
+    "function-paren-newline": "off",
+    "jsx-a11y/click-events-have-key-events": "off",
+    "jsx-a11y/no-static-element-interactions": "off",
+    "jsx-a11y/label-has-for": "off",
+    "jsx-a11y/no-noninteractive-element-interactions": [ "error", {
+        "handlers": [
+          "onMouseDown",
+          "onMouseUp",
+          "onKeyPress",
+          "onKeyDown",
+          "onKeyUp",
+        ],
+      },
+    ],
+    "react/prefer-stateless-function": "off",
+    "default-case": "off",
+  }
+}

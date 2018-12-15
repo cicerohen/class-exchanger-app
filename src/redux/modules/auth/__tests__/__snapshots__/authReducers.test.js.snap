@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`authReducers tests should store correctly when user is removed 1`] = `
+Object {
+  "isAuthenticated": false,
+  "isAuthenticating": true,
+  "user": Object {},
+}
+`;
+
+exports[`authReducers tests should store correctly when user is saved 1`] = `
+Object {
+  "isAuthenticated": false,
+  "isAuthenticating": true,
+  "user": Object {
+    "displayName": "User",
+    "email": "user@email.com",
+    "emailVerified": true,
+    "uid": 2,
+  },
+}
+`;

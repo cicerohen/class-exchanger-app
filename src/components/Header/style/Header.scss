@@ -1,0 +1,33 @@
+@import "./Header.variables";
+
+.root {
+  padding-left: $defaultPadding;
+  padding-right: $defaultPadding;
+  background-color: $headerBgColor;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  height: 80px;
+  align-items: center;
+}
+
+.contentLeftContainer {
+  display: flex;
+}
+
+.contentRightContainer {
+  display: flex;
+}
+
+.menu__root {
+  composes: root from 'components/Menu/style/Menu.scss';
+  display: flex;
+}
+
+.menuItem__container {
+  composes: container from 'components/MenuItem/style/MenuItem.scss';
+  color: $headerColor;
+}

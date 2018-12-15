@@ -1,0 +1,6 @@
+@import './Label.variables';
+@import './Label.mixins';
+
+.base {
+  @include base;
+}

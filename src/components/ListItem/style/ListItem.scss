@@ -1,0 +1,21 @@
+@import './ListItem.variables';
+
+.root {
+  color: $color;
+  list-style: none;
+  border-top: 1px solid $border-color;
+  border-bottom: 1px solid $border-color;
+  a {
+    color: $color;
+    text-decoration: none;
+  }
+}
+
+.container {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.clickable {
+  cursor: pointer;
+}

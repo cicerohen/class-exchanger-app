@@ -1,0 +1,19 @@
+.root {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.horizontal {
+  display: flex;
+  flex-direction: row;
+}
+
+.menuItem__root {
+  composes: root from 'components/MenuItem/style/MenuItem.scss';
+}
+
+.menuItem__container {
+  composes: container from 'components/MenuItem/style/MenuItem.scss';
+  background-color: #fc0;
+}

@@ -1,0 +1,33 @@
+@import "./Sidebar.variables";
+
+.root {
+  height: 100%;
+  background-color: $sidebarBgColor;
+}
+
+.container {
+  position: relative;
+  height: 100%;
+}
+
+.sidebarHeaderContainer {
+  background-color: $sidebarHeaderBgColor;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: $defaultPadding;
+  padding-right: $defaultPadding;
+  height: 80px;
+  > a {
+    text-decoration: none;
+  }
+}
+
+.sidebarBodyContainer {}
+
+.sidebarFooterContainer {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  background-color: $sidebarFooterBgColor;
+}
