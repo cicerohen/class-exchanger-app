@@ -1,0 +1,10 @@
+@import './Label.variables';
+
+@mixin base() {
+  font-size: 9px;
+  padding: 2px 5px;
+  border-radius: 5px;
+  text-transform: uppercase;
+  background-color: $color-primary;
+  color: $color-initial;
+}

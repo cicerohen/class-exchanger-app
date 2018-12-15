@@ -1,0 +1,22 @@
+@import './ListItemWithAvatar.variables';
+
+.root {
+  composes: root from 'components/ListItem/style/ListItem.scss';
+}
+
+.container {
+  composes: container from 'components/ListItem/style/ListItem.scss';
+  display: flex;
+  align-items: center;
+}
+
+.body {
+  flex: 1 1 auto;
+}
+
+.avatar__root {
+  composes: root from 'components/Avatar/style/Avatar.scss';
+  width: $avatarWidth;
+  height: $avatarWidth;
+  margin-right: 10px;
+}

@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<RouteContainer /> Tests should render correctly when is not authenticated and route is protected 1`] = `
+<Redirect
+  push={false}
+  to="/signin"
+/>
+`;
+
+exports[`<RouteContainer /> Tests should render correctly with minimal props 1`] = `
+<div>
+  Loading
+</div>
+`;

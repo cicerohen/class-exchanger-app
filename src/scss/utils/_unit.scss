@@ -1,0 +1,30 @@
+@function strip-unit($num) {
+  @return $num / ($num * 0 + 1);
+}
+
+@function rem-calc($value, $base: null) {
+    
+  @if $base == null {
+    $base: 62.5%;
+  }
+
+  @if unit($base) == '%' {
+    $base: ($base / 100%) * 16px;
+  }
+
+  @if type-of($value) != 'number' {
+    @warn inspect($value) + ' was passed to rem-calc(), which is not a number.';
+    @return $value;
+  }
+
+  @if unit($value) != 'rem' {
+    $value: strip-unit($value) / strip-unit($base) * 1rem;
+  }
+
+  @if $value == 0rem {
+    $value: 0;
+  }
+  
+  @return $value;
+
+}

@@ -1,0 +1,132 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<View /> Tests should render correctly with minimal props 1`] = `
+<div
+  className="root"
+>
+  <div
+    className="container"
+  >
+    <div>
+      <div
+        className="headerContainer"
+      >
+        <div
+          className="header"
+        />
+      </div>
+      <main
+        className="mainContainer"
+      >
+        <h2
+          className="viewTitle"
+        >
+          View Title
+        </h2>
+        <div>
+          content
+        </div>
+      </main>
+      <div
+        className="footerContainer"
+      >
+        <div
+          className="footer"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<View /> Tests should render correctly with sidebar opened 1`] = `
+<div
+  className="root"
+>
+  <div
+    className="container"
+  >
+    <div
+      className="sidebarRoot"
+    >
+      <div
+        className="sidebarContainer"
+      >
+        <div
+          className="sidebar"
+        />
+      </div>
+      <div
+        className="sidebarBackdrop"
+        onClick={[Function]}
+      />
+    </div>
+    <div>
+      <div
+        className="headerContainer"
+      >
+        <div
+          className="header"
+        />
+      </div>
+      <main
+        className="mainContainer"
+      >
+        <h2
+          className="viewTitle"
+        >
+          View Title
+        </h2>
+      </main>
+      <div
+        className="footerContainer"
+      >
+        <div
+          className="footer"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<View /> Tests should render correctly with subtitle 1`] = `
+<div
+  className="root"
+>
+  <div
+    className="container"
+  >
+    <div>
+      <div
+        className="headerContainer"
+      >
+        <div
+          className="header"
+        />
+      </div>
+      <main
+        className="mainContainer"
+      >
+        <h2
+          className="viewTitle"
+        >
+          View Title
+        </h2>
+        <div
+          className="subtitleContainer"
+        >
+          View Subtitle
+        </div>
+      </main>
+      <div
+        className="footerContainer"
+      >
+        <div
+          className="footer"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;

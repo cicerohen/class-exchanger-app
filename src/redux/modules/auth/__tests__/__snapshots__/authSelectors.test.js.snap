@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`authSelectors tests should check if is authenticated correctly 1`] = `false`;
+
+exports[`authSelectors tests should check if is authenticating correctly 1`] = `true`;
+
+exports[`authSelectors tests should get user correctly 1`] = `
+Object {
+  "user": Object {
+    "email": "user@email.com",
+    "uid": 1,
+  },
+}
+`;

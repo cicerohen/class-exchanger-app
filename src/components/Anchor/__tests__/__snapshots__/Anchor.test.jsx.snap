@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Anchor /> Tests should render correctly 1`] = `
+<a
+  className="root"
+  href="#"
+>
+  <div>
+    Link
+  </div>
+</a>
+`;
+
+exports[`<Anchor /> Tests should render correctly with all props 1`] = `
+<a
+  className="root"
+  href="http://www.google.com"
+  onClick={[MockFunction]}
+  title="Anchor title"
+>
+  <div>
+    Link
+  </div>
+</a>
+`;

@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Avatar /> Tests should render correctly 1`] = `
+<div
+  className="root"
+>
+  <img
+    alt=""
+    className="image"
+    src="https://avatars3.githubusercontent.com/u/819041"
+  />
+</div>
+`;
+
+exports[`<Avatar /> Tests should render correctly with all props 1`] = `
+<div
+  className="root"
+>
+  <img
+    alt=""
+    className="image"
+    src="https://avatars3.githubusercontent.com/u/819041"
+  />
+</div>
+`;

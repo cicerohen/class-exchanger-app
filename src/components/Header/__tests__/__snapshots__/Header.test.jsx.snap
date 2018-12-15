@@ -1,0 +1,143 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Header /> Tests should render correctly with minimal props 1`] = `
+<header
+  className="root"
+>
+  <div
+    className="container"
+  >
+    <div
+      className="contentLeftContainer"
+    >
+      <Menu
+        style={
+          Object {
+            "root": "menu__root",
+          }
+        }
+      >
+        <MenuItem
+          href="#"
+          onClick={[Function]}
+          style={
+            Object {
+              "container": "menuItem__container",
+            }
+          }
+        >
+          <FaBars />
+        </MenuItem>
+        <MenuItem
+          href="/"
+          onClick={[Function]}
+          style={
+            Object {
+              "container": "menuItem__container",
+            }
+          }
+        >
+          Home
+        </MenuItem>
+      </Menu>
+    </div>
+    <div
+      className="contentRightContainer"
+    >
+      <MenuItem
+        href="signin"
+        onClick={[Function]}
+        style={
+          Object {
+            "container": "menuItem__container",
+          }
+        }
+      >
+        Sign In
+      </MenuItem>
+      <MenuItem
+        href="signup"
+        onClick={[Function]}
+        style={
+          Object {
+            "container": "menuItem__container",
+          }
+        }
+      >
+        Sign Up
+      </MenuItem>
+    </div>
+  </div>
+</header>
+`;
+
+exports[`<Header /> Tests should render correctlys when is authenticated 1`] = `
+<header
+  className="root"
+>
+  <div
+    className="container"
+  >
+    <div
+      className="contentLeftContainer"
+    >
+      <Menu
+        style={
+          Object {
+            "root": "menu__root",
+          }
+        }
+      >
+        <MenuItem
+          href="#"
+          onClick={[Function]}
+          style={
+            Object {
+              "container": "menuItem__container",
+            }
+          }
+        >
+          <FaBars />
+        </MenuItem>
+        <MenuItem
+          href="/"
+          onClick={[Function]}
+          style={
+            Object {
+              "container": "menuItem__container",
+            }
+          }
+        >
+          Home
+        </MenuItem>
+      </Menu>
+    </div>
+    <div
+      className="contentRightContainer"
+    >
+      <MenuItem
+        href="me"
+        onClick={[Function]}
+        style={
+          Object {
+            "container": "menuItem__container",
+          }
+        }
+      >
+        Me
+      </MenuItem>
+      <MenuItem
+        href="#"
+        onClick={[Function]}
+        style={
+          Object {
+            "container": "menuItem__container",
+          }
+        }
+      >
+        Sign Out
+      </MenuItem>
+    </div>
+  </div>
+</header>
+`;
